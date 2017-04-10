@@ -13,6 +13,7 @@
 		462A69521E9B2DDA00F29E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462A69501E9B2DDA00F29E5D /* Main.storyboard */; };
 		462A69541E9B2DDA00F29E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462A69531E9B2DDA00F29E5D /* Assets.xcassets */; };
 		462A69571E9B2DDA00F29E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462A69551E9B2DDA00F29E5D /* LaunchScreen.storyboard */; };
+		B2B37B8BB629B131B17526FD /* libPods-NTES_IM_DEMO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D07AD6A9E36A8E02E3BB3985 /* libPods-NTES_IM_DEMO.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		462A69531E9B2DDA00F29E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		462A69561E9B2DDA00F29E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		462A69581E9B2DDA00F29E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C5C2F133E275F6F13007BE2 /* Pods-NTES_IM_DEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTES_IM_DEMO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTES_IM_DEMO/Pods-NTES_IM_DEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		6FDD1381DE4A17B709CDBD66 /* Pods-NTES_IM_DEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTES_IM_DEMO.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTES_IM_DEMO/Pods-NTES_IM_DEMO.release.xcconfig"; sourceTree = "<group>"; };
+		D07AD6A9E36A8E02E3BB3985 /* libPods-NTES_IM_DEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NTES_IM_DEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B37B8BB629B131B17526FD /* libPods-NTES_IM_DEMO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B026B703542280FEB8CC125 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C2F133E275F6F13007BE2 /* Pods-NTES_IM_DEMO.debug.xcconfig */,
+				6FDD1381DE4A17B709CDBD66 /* Pods-NTES_IM_DEMO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		462A693B1E9B2DDA00F29E5D = {
 			isa = PBXGroup;
 			children = (
 				462A69461E9B2DDA00F29E5D /* NTES_IM_DEMO */,
 				462A69451E9B2DDA00F29E5D /* Products */,
+				1B026B703542280FEB8CC125 /* Pods */,
+				699703364CFACF80F7AD9C91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +95,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		699703364CFACF80F7AD9C91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D07AD6A9E36A8E02E3BB3985 /* libPods-NTES_IM_DEMO.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 462A695B1E9B2DDA00F29E5D /* Build configuration list for PBXNativeTarget "NTES_IM_DEMO" */;
 			buildPhases = (
+				FC55FACB2BBE90D261279BC2 /* [CP] Check Pods Manifest.lock */,
 				462A69401E9B2DDA00F29E5D /* Sources */,
 				462A69411E9B2DDA00F29E5D /* Frameworks */,
 				462A69421E9B2DDA00F29E5D /* Resources */,
+				5CE7DA703AB70BDABB5D75CB /* [CP] Embed Pods Frameworks */,
+				8196015D838A18792DDB3140 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CE7DA703AB70BDABB5D75CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTES_IM_DEMO/Pods-NTES_IM_DEMO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8196015D838A18792DDB3140 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NTES_IM_DEMO/Pods-NTES_IM_DEMO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC55FACB2BBE90D261279BC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		462A69401E9B2DDA00F29E5D /* Sources */ = {
@@ -273,6 +348,7 @@
 		};
 		462A695C1E9B2DDA00F29E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5C2F133E275F6F13007BE2 /* Pods-NTES_IM_DEMO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W56C787ZS6;
@@ -286,6 +362,7 @@
 		};
 		462A695D1E9B2DDA00F29E5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDD1381DE4A17B709CDBD66 /* Pods-NTES_IM_DEMO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W56C787ZS6;
