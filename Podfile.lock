@@ -1,4 +1,15 @@
 PODS:
+  - CocoaLumberjack (2.0.3):
+    - CocoaLumberjack/Default (= 2.0.3)
+    - CocoaLumberjack/Extensions (= 2.0.3)
+  - CocoaLumberjack/Core (2.0.3)
+  - CocoaLumberjack/Default (2.0.3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.3):
+    - CocoaLumberjack/Default
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
   - M80AttributedLabel (1.5.0)
   - NIMKit (1.2.0):
     - NIMKit/Lite (= 1.2.0)
@@ -12,6 +23,7 @@ PODS:
     - NIMKit/Core
     - NIMSDK_LITE (~> 3.5.0)
   - NIMSDK_LITE (3.5.0)
+  - Reachability (3.1.1)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -20,17 +32,23 @@ PODS:
   - TZImagePickerController (1.7.8)
 
 DEPENDENCIES:
+  - CocoaLumberjack (~> 2.0.0-rc2)
+  - FMDB (~> 2.5)
   - NIMKit (~> 1.2.0)
+  - Reachability (~> 3.1.1)
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: f58d8a19629f4d8379ae14bb3534def24161430e
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   M80AttributedLabel: f2bf6608c3fa5475d3f753d4cc7e41dc2359c6c2
   NIMKit: e4d35227db05119b71fa09c9f47de8c9f2a57b5d
   NIMSDK_LITE: cb6809fcd34737efdf0de257f9a6d0da79388117
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
   Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
   TZImagePickerController: 87a138ae5d585225aaa6c8abe2cface0f0ad19dd
 
-PODFILE CHECKSUM: 0f95b6e2a07f0f637e70fcab787b60b61e306292
+PODFILE CHECKSUM: 38f59d9da5d919e144012d87bcc028f08262f3c9
 
 COCOAPODS: 1.1.1

@@ -3,4 +3,7 @@
 
 target 'NTES_IM_DEMO' do
    pod 'NIMKit', '~> 1.2.0'
+   pod 'FMDB', '~> 2.5'
+   pod 'CocoaLumberjack', '~> 2.0.0-rc2'
+   pod 'Reachability', '~> 3.1.1'
 end

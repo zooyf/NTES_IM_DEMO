@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  NTES_IM_DEMO
+//
+//  Created by 澳达国际 on 2017/4/10.
+//  Copyright © 2017年 JasonYu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <NIMKit.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import "NTESGlobalMacro.h"
+
+#ifdef DEBUG
+static DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static DDLogLevel ddLogLevel = DDLogLevelInfo;
+#endif
+
+#define NTES_USE_CLEAR_BAR - (BOOL)useClearBar{return YES;}
+
+#define NTES_FORBID_INTERACTIVE_POP - (BOOL)forbidInteractivePop{return YES;}
+
+#endif /* PrefixHeader_pch */
