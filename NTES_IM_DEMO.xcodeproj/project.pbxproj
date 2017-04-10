@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462A69491E9B2DDA00F29E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 462A69481E9B2DDA00F29E5D /* main.m */; };
+		462A694C1E9B2DDA00F29E5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 462A694B1E9B2DDA00F29E5D /* AppDelegate.m */; };
+		462A694F1E9B2DDA00F29E5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462A694E1E9B2DDA00F29E5D /* ViewController.m */; };
+		462A69521E9B2DDA00F29E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462A69501E9B2DDA00F29E5D /* Main.storyboard */; };
+		462A69541E9B2DDA00F29E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462A69531E9B2DDA00F29E5D /* Assets.xcassets */; };
+		462A69571E9B2DDA00F29E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462A69551E9B2DDA00F29E5D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462A69441E9B2DDA00F29E5D /* NTES_IM_DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTES_IM_DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		462A69481E9B2DDA00F29E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		462A694A1E9B2DDA00F29E5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		462A694B1E9B2DDA00F29E5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		462A694D1E9B2DDA00F29E5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		462A694E1E9B2DDA00F29E5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		462A69511E9B2DDA00F29E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		462A69531E9B2DDA00F29E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		462A69561E9B2DDA00F29E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		462A69581E9B2DDA00F29E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462A69411E9B2DDA00F29E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462A693B1E9B2DDA00F29E5D = {
+			isa = PBXGroup;
+			children = (
+				462A69461E9B2DDA00F29E5D /* NTES_IM_DEMO */,
+				462A69451E9B2DDA00F29E5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		462A69451E9B2DDA00F29E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462A69441E9B2DDA00F29E5D /* NTES_IM_DEMO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462A69461E9B2DDA00F29E5D /* NTES_IM_DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				462A694A1E9B2DDA00F29E5D /* AppDelegate.h */,
+				462A694B1E9B2DDA00F29E5D /* AppDelegate.m */,
+				462A694D1E9B2DDA00F29E5D /* ViewController.h */,
+				462A694E1E9B2DDA00F29E5D /* ViewController.m */,
+				462A69501E9B2DDA00F29E5D /* Main.storyboard */,
+				462A69531E9B2DDA00F29E5D /* Assets.xcassets */,
+				462A69551E9B2DDA00F29E5D /* LaunchScreen.storyboard */,
+				462A69581E9B2DDA00F29E5D /* Info.plist */,
+				462A69471E9B2DDA00F29E5D /* Supporting Files */,
+			);
+			path = NTES_IM_DEMO;
+			sourceTree = "<group>";
+		};
+		462A69471E9B2DDA00F29E5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				462A69481E9B2DDA00F29E5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462A69431E9B2DDA00F29E5D /* NTES_IM_DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462A695B1E9B2DDA00F29E5D /* Build configuration list for PBXNativeTarget "NTES_IM_DEMO" */;
+			buildPhases = (
+				462A69401E9B2DDA00F29E5D /* Sources */,
+				462A69411E9B2DDA00F29E5D /* Frameworks */,
+				462A69421E9B2DDA00F29E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTES_IM_DEMO;
+			productName = NTES_IM_DEMO;
+			productReference = 462A69441E9B2DDA00F29E5D /* NTES_IM_DEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462A693C1E9B2DDA00F29E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JasonYu;
+				TargetAttributes = {
+					462A69431E9B2DDA00F29E5D = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = W56C787ZS6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 462A693F1E9B2DDA00F29E5D /* Build configuration list for PBXProject "NTES_IM_DEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 462A693B1E9B2DDA00F29E5D;
+			productRefGroup = 462A69451E9B2DDA00F29E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462A69431E9B2DDA00F29E5D /* NTES_IM_DEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462A69421E9B2DDA00F29E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462A69571E9B2DDA00F29E5D /* LaunchScreen.storyboard in Resources */,
+				462A69541E9B2DDA00F29E5D /* Assets.xcassets in Resources */,
+				462A69521E9B2DDA00F29E5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462A69401E9B2DDA00F29E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462A694F1E9B2DDA00F29E5D /* ViewController.m in Sources */,
+				462A694C1E9B2DDA00F29E5D /* AppDelegate.m in Sources */,
+				462A69491E9B2DDA00F29E5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		462A69501E9B2DDA00F29E5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462A69511E9B2DDA00F29E5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		462A69551E9B2DDA00F29E5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462A69561E9B2DDA00F29E5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462A69591E9B2DDA00F29E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		462A695A1E9B2DDA00F29E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462A695C1E9B2DDA00F29E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W56C787ZS6;
+				INFOPLIST_FILE = NTES_IM_DEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasonYu.NTES-IM-DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		462A695D1E9B2DDA00F29E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W56C787ZS6;
+				INFOPLIST_FILE = NTES_IM_DEMO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasonYu.NTES-IM-DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462A693F1E9B2DDA00F29E5D /* Build configuration list for PBXProject "NTES_IM_DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462A69591E9B2DDA00F29E5D /* Debug */,
+				462A695A1E9B2DDA00F29E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462A695B1E9B2DDA00F29E5D /* Build configuration list for PBXNativeTarget "NTES_IM_DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462A695C1E9B2DDA00F29E5D /* Debug */,
+				462A695D1E9B2DDA00F29E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462A693C1E9B2DDA00F29E5D /* Project object */;
+}
